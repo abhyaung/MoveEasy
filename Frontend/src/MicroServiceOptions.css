@@ -1,0 +1,64 @@
+.MicroServiceOptions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+    background-color: rgb(251, 238, 221); /* Neutral background color */
+}
+
+.service-options-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.service-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+}
+
+.service-option-card {
+    border: 1px solid #2F4F4F; /* Subtle border color */
+    border-radius: 4px;
+    padding: 15px;
+    width: 250px; /* Adjust the width as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e0e0e0; /* Light grey for cards background */
+}
+
+.service-option-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-option-card h3 {
+    margin-top: 15px;
+    color: #333; /* Darker text for better readability */
+}
+
+.service-option-card p {
+    margin-bottom: 15px;
+    color: #666; /* Lighter text color for details */
+    background-color: #e0e0e0; /* Consistent with card background */
+}
+
+/* React Bootstrap modal styles */
+.modal-content {
+    text-align: center;
+    background-color: #fff; /* Bright background for modal */
+}
+
+/* Additional global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .service-options {
+        flex-direction: column;
+    }
+}

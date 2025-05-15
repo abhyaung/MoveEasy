@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #fff; /* Or any color/theme you prefer */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    /* Additional styles if needed */
+  }
+  
+  .logo {
+    width: auto;
+    height: 50px; /* Adjust size accordingly */
+  }
+  
+  .buttons-container {
+    /* If you want to center the buttons exactly in the middle of the header,
+       you might need to use absolute positioning or flexbox with justification. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust the space between buttons */
+  }
+  
+  .header-button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd; /* Example border */
+    background-color: #f5f5f5; /* Example background color */
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .header-button:hover {
+    background-color: #eaeaea; /* Darken button on hover */
+  }
+  
+  .support-container {
+    /* Additional styles if needed */
+  }
+  
+  .support-link {
+    text-decoration: none;
+    color: #007bff; /* Example link color */
+    font-weight: bold;
+  }
+  
+  .support-link:hover {
+    text-decoration: underline;
+  }
+  
+  .sub-header {
+    height: 600px;
+    width: 100%;
+    background-image: url('./assets/background.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .address-form {
+    background-color: rgba(47, 74, 74, 0.741);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    position: relative; /*for you to be at the bottom of the page always */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto; 
+  }
+  
+  .form-input,
+  .form-select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background-color: #0055a5; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #003b7a; /* Darken button on hover */
+  }
+  

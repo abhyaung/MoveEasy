@@ -1,0 +1,36 @@
+/* Adjustments for the DeliveryPartnerLogin component with Bootstrap integration */
+
+/* Since Bootstrap's Container component is used, these styles might be redundant. 
+However, you can keep the background color if you want a specific color for the entire page. */
+ /* html {
+  background-color: wheat; /* Keep this if you want the entire background of the page to be wheat */
+  /* height: 100%;
+} */ 
+
+/* Bootstrap's Card component is used for the form, so some of these styles may not be necessary. */
+.driver-login-form {
+  /* Most of these styles are handled by Bootstrap. You might want to add specific styles that Bootstrap doesn't cover. */
+}
+
+/* Bootstrap's Form.Group and Form.Control handle input grouping and styling */
+.driver-input-group input {
+  /* If you need to apply specific styles to inputs not covered by Bootstrap, add them here. */
+}
+
+/* Bootstrap's Button component handles button styling */
+.driver-login-button,
+.driver-google-sign-in-button {
+  /* Use Bootstrap's button variants to achieve desired styles. Custom styles can be added for specific needs. */
+}
+
+/* Specific styles for Google Sign-In button if you're not using a Bootstrap variant for it */
+.driver-google-sign-in-button {
+  background-color: #db4437 !important; /* Override only if necessary */
+  color: white;
+}
+
+.driver-google-sign-in-button:hover {
+  background-color: #c1351d !important;
+}
+
+/* Add any additional custom styles for elements not covered by Bootstrap */

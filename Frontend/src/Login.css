@@ -1,0 +1,60 @@
+/* Login.css adjustments for Bootstrap integration */
+
+/* With Bootstrap's Container, explicit background and sizing might not be needed,
+but you can add this for the overall page background if not covered by a container. */
+body, html {
+  background-color: #f7e0c0; /* Adjust the page background color if desired */
+  height: 100%;
+}
+
+/* Padding and border-radius adjustments for Card if you want to override Bootstrap defaults */
+
+.w-100
+{
+  background-color: #f2c993;
+}
+.card {
+  /* Example: if you want to standardize padding across different cards */
+  padding: 20px;
+  /* Adjust the border-radius if you prefer a different look from the Bootstrap default */
+  border-radius: 0.25rem;
+}
+
+/* Custom button styles that complement Bootstrap's buttons while adding your unique touch */
+.button-primary, .button-outline-danger {
+  margin-top: 10px; /* Ensure spacing between buttons if stacked */
+}
+
+/* Specific styles for Google Sign-In button to differentiate it from other buttons */
+.button-outline-danger {
+  background-color: #db4437; /* Red background for Google button */
+  color: white; /* Ensure text is white for contrast */
+}
+
+.button-outline-danger:hover {
+  background-color: #c1351d; /* Darker red on hover for visual feedback */
+}
+
+/* Enhancements for link appearance to ensure they stand out or match your design language */
+a, .link-primary {
+  color: black; /* Bootstrap's primary blue or your chosen hue */
+}
+
+a:hover, .link-primary:hover {
+  text-decoration: underline; /* Underline on hover for clear interactivity */
+}
+
+/* Adjustments for form inputs if you need specific styles beyond Bootstrap's Form.Control */
+.form-control {
+  /* Example: if you want a specific border or focus style */
+  border-radius: 0.25rem; /* Adjust if you want to override Bootstrap's default border-radius */
+}
+
+/* Consider adding media queries for responsiveness beyond Bootstrap's grid system */
+@media (max-width: 768px) {
+  .card {
+    padding: 15px; /* Smaller padding on smaller screens */
+  }
+}
+
+/* Add any additional custom styles for elements not covered above */

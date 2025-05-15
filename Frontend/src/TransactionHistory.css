@@ -1,0 +1,25 @@
+.transaction-history {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.transaction-history input,
+.transaction-history button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.transaction-details {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}

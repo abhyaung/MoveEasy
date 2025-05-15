@@ -1,0 +1,49 @@
+
+h1 {
+    color: #444;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Increase specificity for your app if needed */
+Terms.container {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.strong {
+    font-weight: bold;
+}
+
+h2 {
+    color: #555;
+}
+
+/* Adjust padding and margins as needed */
+ul, ol {
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add media queries for responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    Terms.container {
+        padding: 15px;
+    }
+}

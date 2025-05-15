@@ -1,0 +1,114 @@
+:root {
+  --primary-background-color: white; /* Light grey background */
+  --primary-text-color: #2D3E50; /* Deep blue for text */
+  --secondary-color: #1ABC9C; /* Cheerful teal for call-to-actions and buttons */
+  --accent-color: #E67E22; /* Orange for highlights and icons */
+  --footer-background-color: #2C3E50; /* Dark slate for footer */
+  --footer-text-color: #ECF0F1; /* Light grey for footer text */
+}
+
+/* Apply the background color to the entire body */
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: 'Open Sans', sans-serif; 
+}
+
+/* Style the headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-text-color);
+}
+
+/* Style the navigation links */
+.nav-link, .navbar-brand {
+  color: var(--primary-text-color);
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: var(--accent-color);
+}
+
+/* Style the main cards */
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border: none; /* No border for a modern look */
+  transition: box-shadow 0.3s; /* Smooth transition for shadow */
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.card-title {
+  color: var(--primary-text-color);
+}
+
+/* Style buttons */
+.btn {
+  background-color: var(--secondary-color);
+  color: #ffffff; /* White text on buttons */
+  border: none; /* No border for buttons */
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Dropdown styles */
+.dropdown-menu {
+  border: none; /* Remove default border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for dropdown */
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: var(--secondary-color);
+  color: var(--footer-text-color);
+}
+
+/* Footer styles */
+.footer {
+  background-color:#4682B4;;
+  color: var(--footer-text-color);
+  padding: 20px 0;
+}
+
+.footer h5 {
+  border-bottom: 1px solid var(--footer-text-color); /* Add a subtle border under the heading */
+}
+
+.footer p, .footer ul li {
+  font-size: 0.9rem;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  padding: 5px 0;
+}
+
+.footer a {
+  color: var(--footer-text-color);
+  text-decoration: none; /* No underlines on links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover for links */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .footer h5, .footer p, .footer ul li {
+    font-size: 0.8rem;
+  }
+}
+
+/* Any additional styles or overrides can go below */

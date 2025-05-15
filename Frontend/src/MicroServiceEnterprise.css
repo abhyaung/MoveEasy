@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #333; /* Darker background for a tech feel */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 50px; /* Keep logo size balanced */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Maintain spacing for a clean look */
+}
+
+.header-button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #555; /* Subtle border for buttons */
+    background-color: #444; /* Darker button background */
+    color: #fff; /* Light text for contrast */
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.header-button:hover {
+    background-color: #555; /* Slightly lighter on hover for interaction feedback */
+}
+
+.support-container {
+    /* Maintain existing styles unless specific changes are needed */
+}
+
+.support-link {
+    text-decoration: none;
+    color: #29b6f6; /* Tech blue for attention */
+    font-weight: bold;
+}
+
+.support-link:hover {
+    text-decoration: underline;
+}
+
+.microservice-sub-header {
+    height: 600px;
+    width: 100%;
+    background-image: url('./assets/background.webp'); /* Tech-oriented background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-form {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker for a sleek look */
+    color: #fff; /* Ensure text is readable on the dark background */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    margin: auto;
+    top: -50px; /* Adjust based on actual layout */
+}
+
+.form-input,
+.form-select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #666; /* Darker border for inputs */
+    background: #222; /* Dark input fields for contrast */
+    color: #fff; /* Light text for visibility */
+    border-radius: 4px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #0d47a1; /* Consistent tech blue */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #1565c0; /* A bit lighter on hover */
+}

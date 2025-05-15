@@ -1,0 +1,62 @@
+.PackersMoversOptions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+    background-color: rgb(251, 238, 221);
+  }
+  
+  .moving-options-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .moving-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* space between cards */
+  }
+  
+  .moving-option-card {
+    border: 1px solid #2F4F4F;
+    border-radius: 4px;
+    padding: 15px;
+    width: 250px; /* Adjust the width as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:rgb(251, 238, 221);
+  }
+  
+  .moving-option-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .moving-option-card h3 {
+    margin-top: 15px;
+  }
+  
+  .moving-option-card p {
+    margin-bottom: 15px;
+    background-color: rgb(251, 238, 221);
+  }
+  
+  /* React Bootstrap modal styles */
+  .modal-content {
+    text-align: center;
+  }
+  
+  /* Additional global styles */
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Your preferred font */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .moving-options {
+      flex-direction: column;
+    }
+  }
+  

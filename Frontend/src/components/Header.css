@@ -1,0 +1,42 @@
+.nav {
+    background-color: #4E4F72;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav a {
+        display: none; 
+    }
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+
+.nav {
+    background-color:#4682B4;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+}

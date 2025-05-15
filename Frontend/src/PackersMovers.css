@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #fff; /* Dark blue for a more professional look */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    /* Additional styles if needed */
+}
+
+.logo {
+    width: auto;
+    height: 50px; /* Adjust size accordingly */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust the space between buttons */
+}
+
+.header-button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd; /* Slightly lighter border for contrast */
+    background-color: #f7f7f7; /* Light background for buttons */
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.header-button:hover {
+    background-color: #e0e0e0; /* Darken button on hover */
+}
+
+.support-container {
+    /* Additional styles if needed */
+}
+
+.support-link {
+    text-decoration: none;
+    color: #007bff; /* Bright orange for visibility and attention */
+    font-weight: bold;
+}
+
+.support-link:hover {
+    text-decoration: underline;
+}
+
+.packerssub-header {
+    height: 600px;
+    width: 100%;
+    background-image:url('./assets/background.webp'); /* Change to a relevant PackersMovers image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-form {
+    background-color:rgba(58, 87, 87, 0.8); /* Slightly darker shade for form background */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.form-input,
+.form-select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #bbb; /* Lighter border for inputs */
+    border-radius: 4px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #007bff; /* Standard blue, good for a call to action */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darken button on hover */
+}

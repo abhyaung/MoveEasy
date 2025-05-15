@@ -1,0 +1,60 @@
+.customerbase {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: top 0;
+}
+
+.cs-first {
+    background-color: black;
+    width: 100vw;
+    padding: top 0;
+  }
+  
+  .cs-first h1 {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    height: 100px;
+  }
+
+.customer-support {
+    background-color: #f7e0c0;    
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .customerheader {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info, .faq {
+    margin-bottom: 50px;
+  }
+  
+  .contact-info h2, .faq h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  .faq ul li:hover {
+    background-color: #f0f0f0; /* Change to the desired hover background color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  
