@@ -19,13 +19,13 @@ MoveEasy is a flexible, pay-as-you-go moving & delivery platform designed for ev
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="snapshots/LandingPage.png" alt="Homepage" width="30%"/> 
-  <img src="snapshots/LandingPage2.png" alt="Homepage" width="30%"/>
-  <img src="snapshots/Dashboard.png" alt="Homepage" width="30%"/>
-  <img src="snapshots/Bookingpage.png" alt="Homepage" width="30%"/>
-  <img src="snapshots/LoginPage.png" alt="Homepage" width="30%"/>
-  <img src="snapshots/MoveMateBot" alt="Homepage" width="30%"/>
-  <img src="snapshots/SignupPage.png" alt="Homepage" width="30%"/>
+  <img src="SnapShots/LandingPage.png" alt="LandingPage" width="30%"/> 
+  <img src="SnapShots/Landingpage2.png" alt="LandingPage2" width="30%"/>
+  <img src="SnapShots/Dashboard.png" alt="DashBoard" width="30%"/>
+  <img src="SnapShots/BookingPage.png" alt="BookingPage" width="30%"/>
+  <img src="SnapShots/LoginPage.png" alt="Loginpage" width="30%"/>
+  <img src="SnapShots/MoveMateBot.png" alt="MoveMateBot" width="30%"/>
+  <img src="SnapShots/SignupPage.png" alt="SignUpPage" width="30%"/>
 </p>
 
 ---
